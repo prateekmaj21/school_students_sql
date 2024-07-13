@@ -99,6 +99,22 @@ CREATE TABLE students (
     grade VARCHAR(10) NOT NULL
 );
 ```
+### Explanation:
+
+1. **CREATE DATABASE**: This SQL command creates a new database named school.
+2. **USE school**: Sets the school database as the current working database.
+3. **CREATE TABLE students**: Defines a table named students within the school database. It includes columns `id`(auto-incremented integer and primary key), `name` (string), `age` (integer), and `grade` (string).
+
+## CRUD:
+
+To perform CRUD operations on your FastAPI application using Postman, you'll use HTTP methods (`POST`, `GET`, `PUT`, `DELETE`) to interact with your API endpoints. 
+
+Here’s how you can set up and execute these commands in Postman:
+
+### Prerequisites:
+
+Ensure your FastAPI application is running using uvicorn as explained earlier.
+
 
 
 
