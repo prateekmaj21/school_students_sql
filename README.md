@@ -6,7 +6,7 @@ The objective of this project is to develop a complete application that performs
 ## MySQL Database Setup
 
 1. Ensure you have MySQL Server installed and running.
-2. Create a database named `school` and a table named `students` with appropriate columns (`id`, `name`, `age`, `grade`). Refer to the previous instructions for setting up the database.
+2. Create a database named `school` and a table named `students` with appropriate columns (`id`, `name`, `age`, `grade`). Refer to the instructions for setting up the database.
 
 ## Python Environment
 
