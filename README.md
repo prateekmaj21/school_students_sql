@@ -198,8 +198,16 @@ Replace `{student_id}` with the ID of the student you want to delete.
 
 - **Accept**: application/json
 
-Click "Send". You should receive a response confirming the deletion of the student.
+Click `Send`. You should receive a response confirming the deletion of the student.
 
+### Notes:
+- Ensure the FastAPI server `(uvicorn main:app --reload)` is running while testing with Postman.
+
+- Adjust the URL `(127.0.0.1:8000)` and endpoint paths `(/students/, /students/{student_id})` based on the FastAPI application's configuration.
+
+- Verify each operation's success through Postman's response and status codes `(200 OK, 201 Created, 204 No Content, 404 Not Found, etc.)`.
+
+By following these steps, we can effectively test the FastAPI application's CRUD operations using Postman, ensuring that the API endpoints behave as expected when interacting with the MySQL database.
 
 
 
