@@ -26,4 +26,17 @@ The objective of this project is to develop a complete application that performs
 fastapi==0.70.0
 uvicorn==0.15.0
 mysql-connector-python==8.0.28
+```
+
+# How to Use:
+
+Create a new file named requirements.txt in your project directory.
+Copy the above dependencies into requirements.txt.
+Install these dependencies using pip:
+
+```text
+pip install -r requirements.txt
+```
+
+
 
