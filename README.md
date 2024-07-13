@@ -31,7 +31,7 @@ mysql-connector-python==8.0.28
 # How to Use:
 
 Create a new file named requirements.txt in your project directory.
-Copy the above dependencies into requirements.txt.
+Copy the above dependencies into `requirements.txt`.
 Install these dependencies using pip:
 
 ```text
