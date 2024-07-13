@@ -149,31 +149,55 @@ URL: http://127.0.0.1:8000/students/
 Click `Send`. You should receive a response with a list of all students.
 
 
-3. Get a Student by ID (GET Request)
-Method: GET
+### 3. Get a Student by ID (GET Request)
+
+Method: **GET**
+
 URL: http://127.0.0.1:8000/students/{student_id}
-Replace {student_id} with the ID of the student you want to fetch.
-Headers:
-Accept: application/json
-Click "Send". You should receive a response with the student details if the student exists.
-4. Update a Student (PUT Request)
-Method: PUT
+
+Replace `{student_id}` with the ID of the student you want to fetch.
+
+#### Headers:
+
+- **Accept**: application/json
+
+Click `Send`. You should receive a response with the student details if the student exists.
+
+
+### 4. Update a Student (PUT Request)
+
+Method: **PUT**
+
 URL: http://127.0.0.1:8000/students/{student_id}
-Replace {student_id} with the ID of the student you want to update.
-Headers:
-Content-Type: application/json
-Accept: application/json
+
+Replace `{student_id}` with the ID of the student you want to update.
+
+#### Headers:
+
+- **Content-Type**: application/json
+
+- **Accept**: application/json
+
+```text
 {
   "name": "Jane Doe",
   "age": 22,
   "grade": "A+"
 }
-5. Delete a Student (DELETE Request)
-Method: DELETE
+```
+
+### 5. Delete a Student (DELETE Request)
+
+Method: **DELETE**
+
 URL: http://127.0.0.1:8000/students/{student_id}
-Replace {student_id} with the ID of the student you want to delete.
-Headers:
-Accept: application/json
+
+Replace `{student_id}` with the ID of the student you want to delete.
+
+#### Headers:
+
+- **Accept**: application/json
+
 Click "Send". You should receive a response confirming the deletion of the student.
 
 
