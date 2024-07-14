@@ -1,4 +1,4 @@
-# school_students_sql
+# Students Database using FastAPI and MYSQL
 The objective of this project is to develop a complete application that performs CRUD (Create, Read, Update, Delete) operations on a MySQL database using Python. 
 
 # Prerequisites
